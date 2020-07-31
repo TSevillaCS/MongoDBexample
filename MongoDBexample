@@ -1,0 +1,16 @@
+
+use StoreDB
+
+db.customers.insert(
+	{
+		"CustomerID": "1",
+		"FirstName": "Jack",
+		"LastName": "Smith"
+	}
+)
+
+
+
+use StoreDB
+
+db.customers.find()
