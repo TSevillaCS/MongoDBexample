@@ -1,7 +1,11 @@
 
 use StoreDB
 
-db.customers.insert(
+
+db.createCollection("Customers")
+
+
+db.Customers.insert(
 	{
 		"CustomerID": "1",
 		"FirstName": "Jack",
